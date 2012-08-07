@@ -49,6 +49,7 @@
     <string name="heading">Heading</string>
     <string name="speed">Speed</string>
     <string name="accuracy">Accuracy</string>
+    <string name="no_data_available">N/A</string>
 
     <!-- button items -->
     <string name="button_ok">OK</string>

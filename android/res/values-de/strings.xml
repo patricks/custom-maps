@@ -49,6 +49,7 @@
     <string name="heading">Richtung</string>
     <string name="speed">Geschwindigkeit</string>
     <string name="accuracy">Genauigkeit</string>
+    <string name="no_data_available">N/A</string>
 
     <!-- button items -->
     <string name="button_ok">OK</string>
