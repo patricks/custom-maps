@@ -209,7 +209,7 @@ public class MapEditor extends Activity {
   @Override
   public boolean onCreateOptionsMenu(Menu menu) {
     super.onCreateOptionsMenu(menu);
-    helpDialogManager.onCreateOptionsMenu(menu);
+    helpDialogManager.onCreateOptionsMenu(menu, getApplicationContext());
     return true;
   }
 

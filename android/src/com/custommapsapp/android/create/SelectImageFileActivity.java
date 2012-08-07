@@ -141,7 +141,7 @@ public class SelectImageFileActivity extends Activity {
     }
     item = menu.add(Menu.NONE, MENU_SD_ROOT, Menu.NONE, "SD card");
     item.setIcon(android.R.drawable.ic_menu_save);
-    helpDialogManager.onCreateOptionsMenu(menu);
+    helpDialogManager.onCreateOptionsMenu(menu, getApplicationContext());
     return true;
   }
 

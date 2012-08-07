@@ -228,7 +228,7 @@ public class PreviewMapActivity extends MapActivity {
     if (helpDialogManager == null) {
       return false;
     }
-    helpDialogManager.onCreateOptionsMenu(menu);
+    helpDialogManager.onCreateOptionsMenu(menu, getApplicationContext());
     return true;
   }
 

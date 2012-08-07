@@ -108,8 +108,8 @@ public class HelpDialogManager {
     isFirstTime = inState.getBoolean(FIRST_TIME, false);
   }
 
-  public void onCreateOptionsMenu(Menu menu) {
-    MenuItem item = menu.add(Menu.NONE, HELP_ID, Menu.NONE, "Help");
+  public void onCreateOptionsMenu(Menu menu, Context context) {
+    MenuItem item = menu.add(Menu.NONE, HELP_ID, Menu.NONE, context.getString(R.string.help_manager_title));
     item.setIcon(android.R.drawable.ic_menu_help);
   }
 

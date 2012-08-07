@@ -39,6 +39,9 @@
     <string name="other_maps">Andere Karten</string>
     <string name="all_maps">Alle Karten</string>
     
+    <!--  help manager -->
+    <string name="help_manager_title">Hilfe</string>
+    
     <!-- details display -->
     <string name="latitude">Breitengrad</string>
     <string name="longitude">Längengrad</string>

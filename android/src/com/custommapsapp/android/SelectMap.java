@@ -300,7 +300,7 @@ public class SelectMap extends ListActivity {
         .setIcon(android.R.drawable.ic_menu_gallery);
     menu.add(Menu.NONE, MENU_PREFERENCES, Menu.NONE, getString(R.string.settings))
         .setIcon(android.R.drawable.ic_menu_preferences);
-    helpDialogManager.onCreateOptionsMenu(menu);
+    helpDialogManager.onCreateOptionsMenu(menu, getApplicationContext());
     return true;
   }
 

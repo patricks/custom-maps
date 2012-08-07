@@ -188,7 +188,7 @@ public class BitmapPointActivity extends Activity {
   public boolean onCreateOptionsMenu(Menu menu) {
     super.onCreateOptionsMenu(menu);
     menu.add(Menu.NONE, MENU_SELECT_POINT, Menu.NONE, "Select point");
-    helpDialogManager.onCreateOptionsMenu(menu);
+    helpDialogManager.onCreateOptionsMenu(menu, getApplicationContext());
     return true;
   }
 

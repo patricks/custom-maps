@@ -202,7 +202,7 @@ public class TiePointActivity extends MapActivity {
     super.onCreateOptionsMenu(menu);
     menu.add(Menu.NONE, MENU_USER_LOCATION, Menu.NONE, "My location").setIcon(
         android.R.drawable.ic_menu_mylocation);
-    helpDialogManager.onCreateOptionsMenu(menu);
+    helpDialogManager.onCreateOptionsMenu(menu, getApplicationContext());
     return true;
   }
 
