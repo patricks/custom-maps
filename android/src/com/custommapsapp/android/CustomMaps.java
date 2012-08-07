@@ -268,15 +268,15 @@ public class CustomMaps extends Activity {
   @Override
   public boolean onCreateOptionsMenu(Menu menu) {
     super.onCreateOptionsMenu(menu);
-    MenuItem item = menu.add(Menu.NONE, MENU_SELECT_MAP, Menu.NONE, "Select map");
+    MenuItem item = menu.add(Menu.NONE, MENU_SELECT_MAP, Menu.NONE, getString(R.string.select_map));
     item.setIcon(android.R.drawable.ic_menu_mapmode);
-    item = menu.add(Menu.NONE, MENU_MY_LOCATION, Menu.NONE, "My location");
+    item = menu.add(Menu.NONE, MENU_MY_LOCATION, Menu.NONE, getString(R.string.my_location));
     item.setIcon(android.R.drawable.ic_menu_mylocation);
-    item = menu.add(Menu.NONE, MENU_LOCATION_DETAILS, Menu.NONE, "Location details");
+    item = menu.add(Menu.NONE, MENU_LOCATION_DETAILS, Menu.NONE, getString(R.string.location_details));
     item.setIcon(android.R.drawable.ic_menu_info_details);
-    item = menu.add(Menu.NONE, MENU_SHARE_MAP, Menu.NONE, "Share map");
+    item = menu.add(Menu.NONE, MENU_SHARE_MAP, Menu.NONE, getString(R.string.share_map));
     item.setIcon(android.R.drawable.ic_menu_share);
-    item = menu.add(Menu.NONE, MENU_PREFERENCES, Menu.NONE, "Settings");
+    item = menu.add(Menu.NONE, MENU_PREFERENCES, Menu.NONE, getString(R.string.settings));
     item.setIcon(android.R.drawable.ic_menu_preferences);
     return true;
   }
@@ -328,7 +328,7 @@ public class CustomMaps extends Activity {
 
   private void shareMap() {
     if (!FileUtil.shareMap(this, selectedMap)) {
-      displayUserMessage("Failed to send the map");
+      displayUserMessage(getString(R.string.share_map_failed));
     }
   }
 

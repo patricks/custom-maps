@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Custom Maps</string>
+    <string name="select_map_name">Custom Maps/Wähle Karte</string>
+    <string name="create_map_name">Custom Maps/Erstelle Karte</string>
+    <string name="edit_prefs_name">Custom Maps/Einstellungen</string>
+    <string name="author">By Marko Teittinen</string>
+    <string name="open_source">      Custom Maps App und der Quellcode stehen unter der Apache Lizenz, Version 2.0.</string>
+    <string name="apache_license">Apache Lizenz 2.0 lesen</string>
+    <string name="google_code">Entwickler Projekt Webseite besuchen</string>
+    <string name="app_home">Besuche Custom Maps App Webseite</string>
+    
+    <!-- custom map -->
+    <string name="share_map_failed">Senden der Karte fehlgeschlagen</string>
+    
+    <!-- safety warning -->
+    <string name="safety_warning_title">WICHTIG!</string>
+    <string name="safety_warning">Einige Bilder welche mit Custom Maps verwendet werden können, sind nicht genau genug 
+        um die exakte GPS Position zu zeigen. Die angzeigte Position soll immer als eine gemittelte Position gesehen werden.
+        \n\nAuch mit einer einzigen Karten werden einige Gebiete genauer via GPS positioniert als Andere.</string>
+    <string name="remind_me_again">Nächstes Mal wieder erinnern</string>
+
+    <!-- select map -->
+    <string name="select_map_to_use">Wähle Karte</string>
+    <string name="no_maps_found_on_sd">Keine Karten auf der SD Karte im Ordner CustomMaps gefunden.\nVerwende das Menü um 
+        Karten zu erstellen und um Hilfe zu bekommen.\n\nOder zum Verlassen drücke \'Zurück\'.</string>
+    <string name="create_map_help">Verwende das Menü um Karten von Fotos oder heruntergeladenen Kartenbildern zu erstellen.\n\nDrücke 
+        und halte einen Kartennamen um ihn zu verändern oder zu löschen.</string>
+    <string name="create_map_help_link">Hier klicken umd die Webseite von Custom Maps für Exemplarkarten und Anleitungen zu besuchen.</string>
+    <string name="no_map_sharing_apps">Keine der installierten Apps kann Karten teilen</string>
+    <string name="delete_map_dialog_title">Bestätige löschen</string>
+    <string name="delete_map_dialog">Bist du sicher folgende Karte zu löschen:\n\"%s\"?</string>
+    <string name="delete_map_dialog_positive">Ja - Löschen</string>
+    <string name="delete_map_dialog_negative">Nein - Behalte Karte</string>
+    <string name="deleting_map_failed">Folgende Karte konnte nicht gelöscht werden: \"%s\"</string>
+    <string name="local_maps">Lokale Karten</string>
+    <string name="nearby_maps">Karten in der Nähe</string>
+    <string name="other_maps">Andere Karten</string>
+    <string name="all_maps">Alle Karten</string>
+    
+    <!-- details display -->
+    <string name="latitude">Breitengrad</string>
+    <string name="longitude">Längengrad</string>
+    <string name="altitude">Höhe</string>
+    <string name="heading">Richtung</string>
+    <string name="speed">Geschwindigkeit</string>
+    <string name="accuracy">Genauigkeit</string>
+
+    <!-- button items -->
+    <string name="button_ok">OK</string>
+
+    <!-- menu items -->
+    <string name="select_map">Wähle Karte</string>
+    <string name="my_location">Meine Position</string>
+    <string name="location_details">Positions Infos</string>
+    <string name="share_map">Teile Karte</string>
+    <string name="settings">Einstellungen</string>
+    <string name="create_map">Erstelle Karte</string>
+    <string name="modify_map">Ändere Karte</string>
+    <string name="delete_map">Lösche Karte</string>
+    <string name="map_cannot_modify">Teil einer Kartensammlung. Kann nicht geändert oder gelöscht werden</string>
+
+</resources>
