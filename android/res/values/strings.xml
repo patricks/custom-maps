@@ -39,7 +39,7 @@
     <string name="other_maps">Other Maps</string>
     <string name="all_maps">All Maps</string>
     
-    <!--  help manager -->
+    <!-- help manager -->
     <string name="help_manager_title">Help</string>
     
     <!-- details display -->
@@ -50,6 +50,23 @@
     <string name="speed">Speed</string>
     <string name="accuracy">Accuracy</string>
     <string name="no_data_available">N/A</string>
+    
+    <!-- edit preferences -->
+    <string name="metric_title">Use metric units</string>
+    <string name="metric_use_metric">Now using metric units</string>
+    <string name="metric_use_non_metric">Now using English units</string>
+    <string name="multitouch_title">Allow pinch zoom</string>
+    <string name="multitouch_use_pinch">Pinch zooming enabled</string>
+    <string name="multitouch_dont_use_pinch">Pinch zooming disabled</string>
+    <string name="distance_title">Display distance</string>
+    <string name="distance_show">Displays distance from user location to center of screen</string>
+    <string name="distance_dont_show">Distance is not displayed or computed</string>
+    <string name="safety_reminder_title">Show safety reminder</string>
+    <string name="safety_reminder_show">Safety reminder will be shown when map is changed</string>
+    <string name="safety_reminder_dont_show">Safety reminder will not be shown when map is changed</string>
+    <string name="max_map_img_size_title">Maximum map image size</string>
+    <string name="max_map_img_size">"%.1f megapixels</string>
+    <string name="about_custom_maps">About Custom Maps</string>
 
     <!-- button items -->
     <string name="button_ok">OK</string>

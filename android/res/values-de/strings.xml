@@ -39,7 +39,7 @@
     <string name="other_maps">Andere Karten</string>
     <string name="all_maps">Alle Karten</string>
     
-    <!--  help manager -->
+    <!-- help manager -->
     <string name="help_manager_title">Hilfe</string>
     
     <!-- details display -->
@@ -50,6 +50,23 @@
     <string name="speed">Geschwindigkeit</string>
     <string name="accuracy">Genauigkeit</string>
     <string name="no_data_available">N/A</string>
+    
+    <!-- edit preferences -->
+    <string name="metric_title">Metrische Einheiten verwenden</string>
+    <string name="metric_use_metric">Metrische Einheiten werden verwendet</string>
+    <string name="metric_use_non_metric">Englische Einheiten werden verwendet</string>
+    <string name="multitouch_title">Zwei-Finger-Zoom erlauben</string>
+    <string name="multitouch_use_pinch">Zwei-Finger-Zoom eingeschalten</string>
+    <string name="multitouch_dont_use_pinch">Zwei-Finger-Zomm ausgeschalten</string>
+    <string name="distance_title">Distanz anzeigen</string>
+    <string name="distance_show">Distanz vom Benutzer zur Bildschirmmitte wird angezeigt</string>
+    <string name="distance_dont_show">Distanz wird nicht angezeigt bzw. berechnet</string>
+    <string name="safety_reminder_title">Sicherheitsinfo anzeigen</string>
+    <string name="safety_reminder_show">Sicherheitsinfo wird beim Kartenwechsel angezeigt</string>
+    <string name="safety_reminder_dont_show">Sicherheitsinfo wird beim Kartenwechsel nicht angezeigt</string>
+    <string name="max_map_img_size_title">Maximale Bildgrösse der Karte</string>
+    <string name="max_map_img_size">"%.1f Megapixel</string>
+    <string name="about_custom_maps">Über Custom Maps</string>
 
     <!-- button items -->
     <string name="button_ok">OK</string>

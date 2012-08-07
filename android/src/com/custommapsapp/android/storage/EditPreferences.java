@@ -18,6 +18,7 @@ package com.custommapsapp.android.storage;
 import com.custommapsapp.android.AboutDialog;
 import com.custommapsapp.android.InertiaScroller;
 import com.custommapsapp.android.MemoryUtil;
+import com.custommapsapp.android.R;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -53,9 +54,9 @@ public class EditPreferences extends PreferenceActivity {
     CheckBoxPreference isMetric = new CheckBoxPreference(this);
     isMetric.setDefaultValue(PreferenceStore.isMetricLocale());
     isMetric.setKey(PreferenceStore.PREFS_METRIC);
-    isMetric.setTitle("Use metric units");
-    isMetric.setSummaryOff("Now using English units");
-    isMetric.setSummaryOn("Now using metric units");
+    isMetric.setTitle(getString(R.string.metric_title));
+    isMetric.setSummaryOff(getString(R.string.metric_use_non_metric));
+    isMetric.setSummaryOn(getString(R.string.metric_use_metric));
     root.addPreference(isMetric);
 
     // Multitouch preference, aka "pinch zoom"
@@ -63,9 +64,9 @@ public class EditPreferences extends PreferenceActivity {
       CheckBoxPreference useMultitouch = new CheckBoxPreference(this);
       useMultitouch.setDefaultValue(Boolean.TRUE);
       useMultitouch.setKey(PreferenceStore.PREFS_MULTITOUCH);
-      useMultitouch.setTitle("Allow pinch zoom");
-      useMultitouch.setSummaryOff("Pinch zooming disabled");
-      useMultitouch.setSummaryOn("Pinch zooming enabled");
+      useMultitouch.setTitle(getString(R.string.multitouch_title));
+      useMultitouch.setSummaryOff(getString(R.string.multitouch_dont_use_pinch));
+      useMultitouch.setSummaryOn(getString(R.string.multitouch_use_pinch));
       root.addPreference(useMultitouch);
     }
 
@@ -73,18 +74,18 @@ public class EditPreferences extends PreferenceActivity {
     CheckBoxPreference distanceDisplay = new CheckBoxPreference(this);
     distanceDisplay.setDefaultValue(false);
     distanceDisplay.setKey(PreferenceStore.PREFS_SHOW_DISTANCE);
-    distanceDisplay.setTitle("Display distance");
-    distanceDisplay.setSummaryOn("Displays distance from user location to center of screen");
-    distanceDisplay.setSummaryOff("Distance is not displayed or computed");
+    distanceDisplay.setTitle(getString(R.string.distance_title));
+    distanceDisplay.setSummaryOn(getString(R.string.distance_show));
+    distanceDisplay.setSummaryOff(getString(R.string.distance_dont_show));
     root.addPreference(distanceDisplay);
 
     // Display safety reminder when map is changed preference
     CheckBoxPreference safetyReminder = new CheckBoxPreference(this);
     safetyReminder.setDefaultValue(true);
     safetyReminder.setKey(PreferenceStore.PREFS_SHOW_REMINDER);
-    safetyReminder.setTitle("Show safety reminder");
-    safetyReminder.setSummaryOn("Safety reminder will be shown when map is changed");
-    safetyReminder.setSummaryOff("Safety reminder will not be shown when map is changed");
+    safetyReminder.setTitle(getString(R.string.safety_reminder_title));
+    safetyReminder.setSummaryOn(getString(R.string.safety_reminder_show));
+    safetyReminder.setSummaryOff(getString(R.string.safety_reminder_dont_show));
     root.addPreference(safetyReminder);
 
     // About dialog
@@ -105,15 +106,15 @@ public class EditPreferences extends PreferenceActivity {
   private Preference createImageSizeInfo() {
     Preference imageSizeInfo = new Preference(this);
     imageSizeInfo.setSelectable(false);
-    imageSizeInfo.setTitle("Maximum map image size");
+    imageSizeInfo.setTitle(getString(R.string.max_map_img_size_title));
     float megaPixels = MemoryUtil.getMaxImagePixelCount(this) / 1E6f;
-    imageSizeInfo.setSummary(String.format("%.1f megapixels", megaPixels));
+    imageSizeInfo.setSummary(String.format(getString(R.string.max_map_img_size), megaPixels));
     return imageSizeInfo;
   }
 
   private Preference createAboutPreference() {
     Preference aboutPreference = new Preference(this);
-    aboutPreference.setTitle("About Custom Maps");
+    aboutPreference.setTitle(getString(R.string.about_custom_maps));
     aboutPreference.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
       @Override
       public boolean onPreferenceClick(Preference preference) {
