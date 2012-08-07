@@ -38,10 +38,10 @@
     <string name="nearby_maps">Nearby Maps</string>
     <string name="other_maps">Other Maps</string>
     <string name="all_maps">All Maps</string>
-    
+
     <!-- help manager -->
     <string name="help_manager_title">Help</string>
-    
+
     <!-- details display -->
     <string name="latitude">Latitude</string>
     <string name="longitude">Longitude</string>
@@ -50,7 +50,7 @@
     <string name="speed">Speed</string>
     <string name="accuracy">Accuracy</string>
     <string name="no_data_available">N/A</string>
-    
+
     <!-- edit preferences -->
     <string name="metric_title">Use metric units</string>
     <string name="metric_use_metric">Now using metric units</string>

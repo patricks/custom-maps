@@ -10,10 +10,10 @@
     <string name="apache_license">Apache Lizenz 2.0 lesen</string>
     <string name="google_code">Entwickler Projekt Webseite besuchen</string>
     <string name="app_home">Besuche Custom Maps App Webseite</string>
-    
+
     <!-- custom map -->
     <string name="share_map_failed">Senden der Karte fehlgeschlagen</string>
-    
+
     <!-- safety warning -->
     <string name="safety_warning_title">WICHTIG!</string>
     <string name="safety_warning">Einige Bilder welche mit Custom Maps verwendet werden können, sind nicht genau genug 
@@ -38,10 +38,10 @@
     <string name="nearby_maps">Karten in der Nähe</string>
     <string name="other_maps">Andere Karten</string>
     <string name="all_maps">Alle Karten</string>
-    
+
     <!-- help manager -->
     <string name="help_manager_title">Hilfe</string>
-    
+
     <!-- details display -->
     <string name="latitude">Breitengrad</string>
     <string name="longitude">Längengrad</string>
@@ -50,7 +50,7 @@
     <string name="speed">Geschwindigkeit</string>
     <string name="accuracy">Genauigkeit</string>
     <string name="no_data_available">N/A</string>
-    
+
     <!-- edit preferences -->
     <string name="metric_title">Metrische Einheiten verwenden</string>
     <string name="metric_use_metric">Metrische Einheiten werden verwendet</string>
