@@ -7,23 +7,24 @@
   android:paddingRight="2dp">
 
   <TextView
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:textColor="#FFFFFF"
-    android:textSize="12pt"
-    android:textStyle="bold"
-    android:text="Select map to use"/>
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/select_map_to_use"
+      android:textColor="#FFFFFF"
+      android:textSize="12pt"
+      android:textStyle="bold" />
 
   <ListView android:id="@id/android:list"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     />
 
-  <TextView android:id="@id/android:empty"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:text="No maps found on SD card in CustomMaps folder.\n\nUse menu to create maps and to get help finding them.\n\n Or press 'back' to exit."
-    android:textSize="8pt"
-    android:gravity="center"
-    />
+  <TextView
+      android:id="@id/android:empty"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:gravity="center"
+      android:text="@string/no_maps_found_on_sd"
+      android:textSize="8pt" />
+
  </LinearLayout>

@@ -4,7 +4,7 @@
   android:orientation="horizontal"
   android:layout_width="fill_parent"
   android:layout_height="wrap_content"
-  >
+  android:baselineAligned="false">
   <TableLayout
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
@@ -12,12 +12,14 @@
     android:layout_marginRight="4pt"
     >
     <TableRow>
-      <TextView android:text="Longitude"
-        android:layout_marginRight="4pt"
-        android:textStyle="bold"
-        android:textSize="10pt"
-        android:textColor="#eeeeee"
-        />
+
+      <TextView
+          android:layout_marginRight="4pt"
+          android:text="@string/longitude"
+          android:textColor="#eeeeee"
+          android:textSize="10pt"
+          android:textStyle="bold" />
+
       <TextView 
         android:id="@+id/longitudeField"
         android:textSize="10pt"
@@ -25,12 +27,14 @@
         />
     </TableRow>
     <TableRow>
-      <TextView android:text="Latitude"
-        android:layout_marginRight="4pt"
-        android:textStyle="bold"
-        android:textSize="10pt"
-        android:textColor="#eeeeee"
-        />
+
+      <TextView
+          android:layout_marginRight="4pt"
+          android:text="@string/latitude"
+          android:textColor="#eeeeee"
+          android:textSize="10pt"
+          android:textStyle="bold" />
+
       <TextView 
         android:id="@+id/latitudeField"
         android:textSize="10pt"
@@ -44,12 +48,14 @@
     android:layout_weight="1"
     >
     <TableRow>
-      <TextView android:text="Altitude"
-        android:layout_marginRight="4pt"
-        android:textStyle="bold"
-        android:textSize="10pt"
-        android:textColor="#eeeeee"
-        />
+
+      <TextView
+          android:layout_marginRight="4pt"
+          android:text="@string/altitude"
+          android:textColor="#eeeeee"
+          android:textSize="10pt"
+          android:textStyle="bold" />
+
       <TextView 
         android:id="@+id/altitudeField"
         android:textSize="10pt"
@@ -57,12 +63,14 @@
         />
     </TableRow>
     <TableRow>
-      <TextView android:text="Accuracy" 
-        android:layout_marginRight="4pt"
-        android:textStyle="bold"
-        android:textSize="10pt"
-        android:textColor="#eeeeee"
-        />
+
+      <TextView
+          android:layout_marginRight="4pt"
+          android:text="@string/accuracy"
+          android:textColor="#eeeeee"
+          android:textSize="10pt"
+          android:textStyle="bold" />
+
       <TextView 
         android:id="@+id/accuracyField"
         android:textSize="10pt"
@@ -77,12 +85,14 @@
     android:layout_marginLeft="4pt"
     >
     <TableRow>
-      <TextView android:text="Heading"
-        android:layout_marginRight="4pt"
-        android:textStyle="bold"
-        android:textSize="10pt"
-        android:textColor="#eeeeee"
-        />
+
+      <TextView
+          android:layout_marginRight="4pt"
+          android:text="@string/heading"
+          android:textColor="#eeeeee"
+          android:textSize="10pt"
+          android:textStyle="bold" />
+
       <TextView 
         android:id="@+id/headingField"
         android:textSize="10pt"
@@ -90,12 +100,14 @@
         />
     </TableRow>
     <TableRow>
-      <TextView android:text="Speed"
-        android:layout_marginRight="4pt"
-        android:textStyle="bold"
-        android:textSize="10pt"
-        android:textColor="#eeeeee"
-        />
+
+      <TextView
+          android:layout_marginRight="4pt"
+          android:text="@string/speed"
+          android:textColor="#eeeeee"
+          android:textSize="10pt"
+          android:textStyle="bold" />
+
       <TextView 
         android:id="@+id/speedField"
         android:textSize="10pt"

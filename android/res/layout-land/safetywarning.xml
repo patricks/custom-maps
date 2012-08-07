@@ -1,53 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:padding="2pt"
-    >
+    android:padding="2pt" >
+
     <TextView
         android:id="@+id/header"
-        android:layout_alignParentTop="true"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/safety_warning_title"
         android:textColor="#ffffffff"
-        android:textSize="12pt"
-        android:text="IMPORTANT!"
-    />
+        android:textSize="12pt" />
+
     <ScrollView
         android:id="@+id/textArea"
-        android:layout_below="@id/header"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/header"
         android:layout_marginBottom="2pt"
-        android:layout_marginTop="4pt"
-        >
-        <TextView 
+        android:layout_marginTop="4pt" >
+
+        <TextView
             android:id="@+id/warningBody"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:textColor="#ffffffff"
-            android:textSize="8pt"
             android:text="@string/safety_warning"
-        />
+            android:textColor="#ffffffff"
+            android:textSize="8pt" />
     </ScrollView>
+
     <Button
         android:id="@+id/okButton"
-        android:layout_below="@id/textArea"
-        android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textArea"
         android:paddingLeft="20pt"
         android:paddingRight="20pt"
-        android:text="OK"
-    />
+        android:text="@string/button_ok" />
+
     <CheckBox
         android:id="@+id/showAgain"
-        android:layout_alignBaseline="@id/okButton"
-        android:layout_alignParentLeft="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Remind me again next time"
+        android:layout_alignBaseline="@id/okButton"
+        android:layout_alignParentLeft="true"
         android:checked="true"
-    />
+        android:text="@string/remind_me_again" />
+
 </RelativeLayout>
